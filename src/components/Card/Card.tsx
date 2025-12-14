@@ -5,7 +5,7 @@ import { CardImage } from "./CardImage";
 export function Card() {
 
   return(
-    <article className="max-w-[90vw] w-4xl flex md:flex-row flex-col-reverse rounded-xl overflow-hidden ">
+    <article className="flex md:flex-row flex-col-reverse max-w-[85vw] w-5xl  rounded-xl overflow-hidden my-10 ">
       <CardDec />
       <CardImage />
     </article>
