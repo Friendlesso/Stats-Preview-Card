@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import 'tailwindcss';
+
+:root {
+  /* Background color */
+    --main-bg-color: hsl(233, 47%, 7%);
+  
+  /* Card Background color */
+    --card-bg-color: hsl(244, 37%, 16%);
+
+  /* Accent color */
+    --accent-color: hsl(277, 64%, 61%);
+
+  /* Main paragraph color */
+    --main-p-color: hsla(0, 0%, 100%, 0.75);
+
+  /* Stat heading color */
+    --stat-p-color: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  color: white;
+}
