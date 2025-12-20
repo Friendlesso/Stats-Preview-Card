@@ -11,6 +11,9 @@
   /* Accent color */
     --accent-color: hsl(277, 64%, 61%);
 
+  /* Image Overlay color */
+    --image-accent-color: hlsa(277, 64%, 61%, 0.5);
+
   /* Main paragraph color */
     --main-p-color: hsla(0, 0%, 100%, 0.75);
 
